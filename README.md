@@ -5,10 +5,21 @@ In case you didn't get the project title, insanity is repeating something and ex
 
 ## System Requirements
 * Java JDK 6.0 or above (it was compiled under JDK 7 using 1.6 as the target source).
-* Include Apache Commons Lang version 3.0 or above
+* Apache Commons Lang version 3.0 or above  
+
+## Installation Instructions  
+Insanity is easy to install whether you use maven or not.
+
+### Maven Users  
+Maven users can find dependency information [here](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22Insanity%22).
+
+### Non-Maven Users  
+Include the following jars in your class path:  
+* Download the Insanity jar from [Github](https://github.com/Derek-Ashmore/Insanity/releases) and put it in your class path.  
+* Insure Apache Commons Lang version 3.0 or above is in your class path.  
 
 ## Usage Instructions
-* Include the jar in your class path
+To use Insanity, follow these instructions:  
 * Create a "callable" that calls your remote resource
 * Use the RetryManager class to execute your callable.
 
